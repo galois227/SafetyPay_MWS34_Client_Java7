@@ -12,9 +12,9 @@ public class MWSClient {
 	public static void main(String[] args)  
     {  
 		
-        String ApiKey = "bf7ce82e07245d18d25247434d8fb9fd";
+        String ApiKey = "";
 		String RequestDateTime = "2018-01-25T19:49:57";
-		String SignatureKey = "928a12486834cc1a8b8a66f9d230ad8e";
+		String SignatureKey = "";
 		String CurrencyID = "PEN";
 		Double Ammoun = 12.8;
 		String MerchantSalesID = "TEST";
@@ -25,7 +25,7 @@ public class MWSClient {
 		String TransacErrorURL = "#";
 		int TransactionExpirationTime = 120;
 		String CustomMerchantName = "M_TEST";
-		String ShopperEmail = "eyalico@safetypay.com";
+		String ShopperEmail = "gflores@safetypay.com";
 		String LocalizedCurrencyID = "PEN";
 		int ProductID = 1;
 		
